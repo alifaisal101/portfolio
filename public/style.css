@@ -109,7 +109,7 @@ nav .nav-link:hover {
     background-color: #fafafa !important; 
 
 }
-.about-section .container h1 span, .projects-section .container h1 span{
+.about-section .container h1 span, .projects-section .container h1 span, .contact-section .container h1 span{
     border-bottom: solid 6px #2b9bcd;
     border-radius: 0.5rem;
 }
@@ -171,7 +171,7 @@ nav .nav-link:hover {
 
 .project-popup .about-p {
     height: 5rem;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .project-popup .links-container a {

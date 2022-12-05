@@ -32,7 +32,7 @@
                         </a>
                     </li>
                     <li class="nav-item mx-2 d-lg-none">
-                        <a href="http://" class="nav-link text-light">
+                        <a href="/resume" target="_blank" class="nav-link text-light">
                             <i class="bi bi-file-text-fill"></i> Resume
                         </a>
                     </li>
@@ -48,7 +48,7 @@
         <a href="http://" class="nav-link text-dark mb-3" data-bs-toggle="tooltip" title="Github">
             <i class="bi bi-github"></i>
         </a>
-        <a href="http://" class="nav-link text-dark mb-3" data-bs-toggle="tooltip" title="Resume">
+        <a href="/resume" target="_blank" class="nav-link text-dark mb-3" data-bs-toggle="tooltip" title="Resume">
             <i class="bi bi-file-text-fill"></i>
         </a>
     </div>
@@ -208,7 +208,7 @@
                 <div class="col-xl-4 col-lg-6 mb-5 project-item"  key="3">
                     <div class="card bg-light text-dark ">
                         <div class="card-body text-center p-0">
-                            <div class="h1 mb-3">  <img src="./bg4.png" class="card-img-top" alt="...">
+                            <div class="h1 mb-3">  <img src="./bg.png" class="card-img-top" alt="...">
                             </div>
                             <h3 class="card-title mb-3">Virtual</h3>
                         </div>
@@ -258,18 +258,18 @@
         <div class="container pt-5 px-3">
             <h1 class="display-5 fw-bold mb-5 text-center"><span class="pb-2">Contact Me</span></h1>
             <div class="container  form-cont card p-3 bg-light">
-                <form class="row g-3">
+                <form class="row g-3" method="POST" action="/sendmail">
                     <div class="col-md-6">
                         <label for="Name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="Name">
+                        <input type="text" name="name"  class="form-control" id="Name">
                       </div>
                     <div class="col-md-6">
                       <label for="email" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="email">
+                      <input type="email" name="email"  class="form-control" id="email">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" name="text" id="exampleFormControlTextarea1" rows="3"></textarea>
                       </div>
                     <div class="col-12 text-center">
                       <button type="submit" class="btn fs-2 fw-bold text-white submitBtn">Submit</button>
@@ -281,7 +281,7 @@
 
     <footer id="footer" class="bg-dark text-white p-4">
         <p class="text-center m-0">
-        © Copyright 2022. Made by Ali Faisal
+            This work is licensed under a Non-Profit Open Software License 3.0 (NPOSL-3.0)        
         </p>
     </footer>
     <div id="canvas" ></div>

@@ -26,8 +26,8 @@ app.post(
     }
     sgMail.setApiKey(process.env.SENDGRID_API_KEY);
     const msg = {
-      to: "alifais1122@gmail.com",
-      from: "alifaisal1ic@gmail.com",
+      to: process.env.TO_EMAIL,
+      from: process.env.FROM_EMAIL,
       subject: `A message from ${req.body.name} with the email: ${req.body.email} using the portpholio contact!`,
       text: req.body.message,
       html: "<strong>and easy to do anywhere, even with Node.js</strong>",

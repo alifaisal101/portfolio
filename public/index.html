@@ -1,457 +1,608 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Ali Faisal</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-        <div class="container">
-            <a href="#top" class="navbar-brand fs-1 logo-text">Ali Faisal</a>
+      <div class="container">
+        <a href="#top" class="navbar-brand fs-1 logo-text">Ali Faisal</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span
-                    class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto fs-4 text-center">
-                    <li class="nav-item mx-2 "><a href="#about" class="nav-link text-light">About</a></li>
-                    <li class="nav-item mx-2"><a href="#projects" class="nav-link text-light">Projects</a></li>
-                    <li class="nav-item mx-2"><a href="#contact" class="nav-link text-light">Contact</a></li>
-                    <li class="nav-item mx-2 d-lg-none ">
-                        <a href="http://" class="nav-link text-light">
-                            <i class="bi bi-linkedin"></i> Linkedin
-                        </a>
-                    </li>
-                    <li class="nav-item mx-2 d-lg-none">
-                        <a href="http://" class="nav-link text-light">
-                            <i class="bi bi-github"></i> Github
-                        </a>
-                    </li>
-                    <li class="nav-item mx-2 d-lg-none">
-                        <a href="/resume" target="_blank" class="nav-link text-light">
-                            <i class="bi bi-file-text-fill"></i> Resume
-                        </a>
-                    </li>
-                </ul> 
-            </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto fs-4 text-center">
+            <li class="nav-item mx-2">
+              <a href="#about" class="nav-link text-light">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#projects" class="nav-link text-light">Projects</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#contact" class="nav-link text-light">Contact</a>
+            </li>
+            <li class="nav-item mx-2 d-lg-none">
+              <a href="http://" class="nav-link text-light">
+                <i class="bi bi-linkedin"></i> Linkedin
+              </a>
+            </li>
+            <li class="nav-item mx-2 d-lg-none">
+              <a href="http://" class="nav-link text-light">
+                <i class="bi bi-github"></i> Github
+              </a>
+            </li>
+            <li class="nav-item mx-2 d-lg-none">
+              <a href="/resume" target="_blank" class="nav-link text-light">
+                <i class="bi bi-file-text-fill"></i> Resume
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <div class="side_btns bg-light fs-2 d-none d-lg-block ">
-        <a href="http://" class="nav-link text-dark mb-3" data-bs-toggle="tooltip" title="Linkedin">
-            <i class="bi bi-linkedin"></i>
-        </a>
-        <a href="http://" class="nav-link text-dark mb-3" data-bs-toggle="tooltip" title="Github">
-            <i class="bi bi-github"></i>
-        </a>
-        <a href="/resume" target="_blank" class="nav-link text-dark mb-3" data-bs-toggle="tooltip" title="Resume">
-            <i class="bi bi-file-text-fill"></i>
-        </a>
+    <div class="side_btns bg-light fs-2 d-none d-lg-block">
+      <a
+        href="http://"
+        class="nav-link text-dark mb-3"
+        data-bs-toggle="tooltip"
+        title="Linkedin"
+      >
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a
+        href="http://"
+        class="nav-link text-dark mb-3"
+        data-bs-toggle="tooltip"
+        title="Github"
+      >
+        <i class="bi bi-github"></i>
+      </a>
+      <a
+        href="/resume"
+        target="_blank"
+        class="nav-link text-dark mb-3"
+        data-bs-toggle="tooltip"
+        title="Resume"
+      >
+        <i class="bi bi-file-text-fill"></i>
+      </a>
     </div>
 
-    <section class="text-white p-5 p-lg-0 pt-lg-4 text-center text-sm-start bg-image home-section" id="home">
-        <div class="container text-center pt-5">
-            <h1 class="display-4 fw-bold mb-4">Full-Stack Javascript Developer</h1>
-            <p class="lead text-light mb-5">Fullstack Javascript and Electron.JS desktop application developer,<br /> also experienced with Linux VPS administration.</p>
-            <button class="btn more-btn fs-1 fw-bold text-light" ><a class="nav-link text-light" href="#about">More About Me</a></button>
-        </div>
+    <section
+      class="text-white p-5 p-lg-0 pt-lg-4 text-center text-sm-start bg-image home-section"
+      id="home"
+    >
+      <div class="container text-center pt-5">
+        <h1 class="display-4 fw-bold mb-4">Full-Stack Javascript Developer</h1>
+        <p class="lead text-light mb-5">
+          Fullstack Javascript and Electron.JS desktop application developer,<br />
+          also experienced with Linux VPS administration.
+        </p>
+        <button class="btn more-btn fs-1 fw-bold text-light">
+          <a class="nav-link text-light" href="#about">More About Me</a>
+        </button>
+      </div>
     </section>
 
-    <section class=" about-section mb-5" id="about">
-        <div class="container pt-5">
-            <h1 class="display-5 fw-bold mb-5 text-center"><span class="pb-2">About Me</span></h1>
-            <div class="container ">
-                <div class="row align-items-center content">
-                    <div class="col-lg card mx-lg-5 me-lg-4 mb-5 mb-lg-0">
-                        <h1 class="mb-3">Who am I?</h1>
-                        <p class="lead mb-5">I'm a software developer. I specialize mainly in developing MVC backends or APIs using Node.JS, 
-                            Express.JS and MongoDB; For the frontend: React.JS & Vue.JS.<br/><br />
-                            I also have experience in developing cross-platform desktop applications using Electron.JS and in setting up virtual 
-                            private Linux servers for deployment, file sharing, etc; and maintaining them.
-                        </p>
-                    </div>
-                    <div class="col-lg card mx-lg-5 ms-lg-4 ">
-                        <h1 class="mb-3">My Skills</h1>
-                        <div class="d-flex align-content-start flex-wrap skill-items pb-5">
-                            <div class="p-2 bd-highlight">Node.JS</div>
-                            <div class="p-2 bd-highlight">Express.JS</div>
-                            <div class="p-2 bd-highlight">MongoDB</div>
-                            <div class="p-2 bd-highlight">MySQL</div>
-                            <div class="p-2 bd-highlight">PouchDB</div>
-                            <div class="p-2 bd-highlight">Electron</div>
-                            <div class="p-2 bd-highlight">Docker</div>
-                            <div class="p-2 bd-highlight">Deployment</div>
-                            <div class="p-2 bd-highlight">Linux</div>
-                            <div class="p-2 bd-highlight">VPS</div>
-                            <div class="p-2 bd-highlight">Git</div>
-                            <div class="p-2 bd-highlight">GitServer</div>
-                            <div class="p-2 bd-highlight">React.JS</div>
-                            <div class="p-2 bd-highlight">Material UI</div>
-                            <div class="p-2 bd-highlight">Vue.JS</div>
-                            <div class="p-2 bd-highlight">Vuetify</div>
-                            <div class="p-2 bd-highlight">HTML & CSS</div>
-                            <div class="p-2 bd-highlight">Webpack</div>
-                            <div class="p-2 bd-highlight">Vite</div>
-                            <div class="p-2 bd-highlight">SASS</div>
-                            <div class="p-2 bd-highlight">PostCSS</div>
-                            <div class="p-2 bd-highlight">BootStrap</div>
-                            <div class="p-2 bd-highlight">Javascript & ES6</div>
-                            <div class="p-2 bd-highlight">TypeScript</div>
-                            <div class="p-2 bd-highlight">D3.JS</div>
-                        </div>
-                    </div>
-                </div>
+    <section class="about-section mb-5" id="about">
+      <div class="container pt-5">
+        <h1 class="display-5 fw-bold mb-5 text-center">
+          <span class="pb-2">About Me</span>
+        </h1>
+        <div class="container">
+          <div class="row align-items-center content">
+            <div class="col-lg card mx-lg-5 me-lg-4 mb-5 mb-lg-0">
+              <h1 class="mb-3">Who am I?</h1>
+              <p class="lead mb-5">
+                I'm a software developer. I specialize mainly in developing MVC
+                backends or APIs using Node.JS, Express.JS and MongoDB; For the
+                frontend: React.JS & Vue.JS.<br /><br />
+                I also have experience in developing cross-platform desktop
+                applications using Electron.JS and in setting up virtual private
+                Linux servers for deployment, file sharing, etc; and maintaining
+                them.
+              </p>
             </div>
-            
+            <div class="col-lg card mx-lg-5 ms-lg-4">
+              <h1 class="mb-3">My Skills</h1>
+              <div
+                class="d-flex align-content-start flex-wrap skill-items pb-5"
+              >
+                <div class="p-2 bd-highlight">Node.JS</div>
+                <div class="p-2 bd-highlight">Express.JS</div>
+                <div class="p-2 bd-highlight">MongoDB</div>
+                <div class="p-2 bd-highlight">MySQL</div>
+                <div class="p-2 bd-highlight">PouchDB</div>
+                <div class="p-2 bd-highlight">Electron</div>
+                <div class="p-2 bd-highlight">Docker</div>
+                <div class="p-2 bd-highlight">Deployment</div>
+                <div class="p-2 bd-highlight">Linux</div>
+                <div class="p-2 bd-highlight">VPS</div>
+                <div class="p-2 bd-highlight">Git</div>
+                <div class="p-2 bd-highlight">GitServer</div>
+                <div class="p-2 bd-highlight">React.JS</div>
+                <div class="p-2 bd-highlight">Material UI</div>
+                <div class="p-2 bd-highlight">Vue.JS</div>
+                <div class="p-2 bd-highlight">Vuetify</div>
+                <div class="p-2 bd-highlight">HTML & CSS</div>
+                <div class="p-2 bd-highlight">Webpack</div>
+                <div class="p-2 bd-highlight">Vite</div>
+                <div class="p-2 bd-highlight">SASS</div>
+                <div class="p-2 bd-highlight">PostCSS</div>
+                <div class="p-2 bd-highlight">BootStrap</div>
+                <div class="p-2 bd-highlight">Javascript & ES6</div>
+                <div class="p-2 bd-highlight">TypeScript</div>
+                <div class="p-2 bd-highlight">D3.JS</div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section class=" bg-dark projects-section text-light pb-5" id="projects">
-        <div class="container pt-5 px-lg-5 ">
-            <h1 class="display-5 fw-bold mb-5 text-center"><span class="pb-2">Projects</span></h1>
-            <div class="row" id="projects-list">
-                <div class="col-xl-4 col-lg-6 mb-5 project-item" key="1">
-                    <div class="card bg-light text-dark ">
-                        <div class="card-body text-center p-0">
-                            <div class="h1 mb-3">  <img src="./bg4.png" class="card-img-top" alt="...">
-                            </div>
-                            <h3 class="card-title mb-3">Clinc Managemnt System</h3>
-                        </div>
-                    </div>
+    <section class="bg-dark projects-section text-light pb-5" id="projects">
+      <div class="container pt-5 px-lg-5">
+        <h1 class="display-5 fw-bold mb-5 text-center">
+          <span class="pb-2">Projects</span>
+        </h1>
+        <div class="row" id="projects-list">
+          <div class="col-xl-4 col-lg-6 mb-5 project-item" key="1">
+            <div class="card bg-light text-dark">
+              <div class="card-body text-center p-0">
+                <div class="h1 mb-3">
+                  <img src="./nodejs.jpg" class="card-img-top" alt="..." />
                 </div>
-                <div class="card bg-dark text-light project-popup d-none" key="1">
-                    <div class="card-body p-0">
-                        <div class="row" >
-                            <div class="col-lg-7 p-0">
-                                <img src="./bg4.png" class="card-img-top h-100" alt="...">
-                            </div>
-                            <div class="col-lg-5 py-3 info-cont ">
-                                <h6 class="mb-0 fs-5">Project</h6>
-                                <h2 class="ps-1 fw-bold">Clinc Managemnt System</h2>
-                                <div class="d-flex align-content-start flex-wrap skill-items pb-3">
-                                    <div class="p-2 bd-highlight">Node.JS</div>
-                                    <div class="p-2 bd-highlight">Express.JS</div>
-                                    <div class="p-2 bd-highlight">MongoDB</div>
-                                    <div class="p-2 bd-highlight">Mongoose</div>
-                                    <div class="p-2 bd-highlight">Bcrypt.JS</div>
-                                    <div class="p-2 bd-highlight">JWT</div>
-                                    <div class="p-2 bd-highlight">Heroku</div>
-                                    <div class="p-2 bd-highlight">Git</div>
-                                    <div class="p-2 bd-highlight">Vue.JS</div>
-                                    <div class="p-2 bd-highlight">Vuetify</div>
-                                    <div class="p-2 bd-highlight">HTML & CSS</div>
-                                    <div class="p-2 bd-highlight">Javascript & ES6</div>
-                                    <div class="p-2 bd-highlight">Vite</div>
-                                </div>
-
-                                <h2 class="ps-1 fw-bold">About</h2>
-                                <p class="about-p fs-6 mb-5">
-                                    This project is a simple in features, yet scalable clinc managemnt system.
-                                    It supports administration functionalites as well as multi-user functionalites. <br />
-                                    More info can be found in the .README file, in the git reposotroy.
-                                </p>
-                                <div class="container text-center links-container ">
-                                    <a class="btn fw-bold mx-1 fs-4" href=""><i class="bi bi-eye-fill"></i> Live</a>
-                                    <a class="btn fw-bold mx-1 fs-4" href=""><i class="bi bi-github"></i> Github</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-lg-6 mb-5 project-item"  key="3">
-                    <div class="card bg-light text-dark ">
-                        <div class="card-body text-center p-0">
-                            <div class="h1 mb-3">  <img src="./bg.png" class="card-img-top" alt="...">
-                            </div>
-                            <h3 class="card-title mb-3">Family Tree Desktop App</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-dark text-light project-popup d-none"  key="3">
-                    <div class="card-body p-0">
-                        <div class="row" >
-                            <div class="col-lg-7 p-0">
-                                <img src="./bg4.png" class="card-img-top h-100" alt="...">
-                            </div>
-                            <div class="col-lg-5 py-3 info-cont ">
-                                <h6 class="mb-0 fs-5">Project</h6>
-                                <h2 class="ps-1 fw-bold">Family Tree Desktop App</h2>
-                                <div class="d-flex align-content-start flex-wrap skill-items pb-3">
-                                    <div class="p-2 bd-highlight">Node.JS</div>
-                                    <div class="p-2 bd-highlight">Electron.JS</div>
-                                    <div class="p-2 bd-highlight">PouchDB</div>
-                                    <div class="p-2 bd-highlight">TreeModel</div>
-                                    <div class="p-2 bd-highlight">Git</div>
-                                    <div class="p-2 bd-highlight">React.JS</div>
-                                    <div class="p-2 bd-highlight">Bootstrap 5</div>
-                                    <div class="p-2 bd-highlight">HTML & CSS</div>
-                                    <div class="p-2 bd-highlight">Javascript & ES6</div>
-                                    <div class="p-2 bd-highlight">SASS</div>
-                                    <div class="p-2 bd-highlight">PostCSS & PurgeCSS</div>
-                                    <div class="p-2 bd-highlight">Webpack</div>
-                                </div>
-
-                                <h2 class="ps-1 fw-bold">About</h2>
-                                <p class="about-p fs-6 mb-5">
-                                    A Family Tree desktop application, Designed to allow you to easily create multiple trees, 
-                                    modify them and customize how are they viewed.
-                                </p>
-                                <div class="container text-center links-container ">
-                                    <a class="btn fw-bold mx-1 fs-4" href=""><i class="bi bi-eye-fill"></i> Live</a>
-                                    <a class="btn fw-bold mx-1 fs-4" href=""><i class="bi bi-github"></i> Github</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 mb-5 project-item"  key="2">
-                    <div class="card bg-light text-dark ">
-                        <div class="card-body text-center p-0">
-                            <div class="h1 mb-3">  <img src="./bg4.png" class="card-img-top" alt="...">
-                            </div>
-                            <h3 class="card-title mb-3">Shop WebApp</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-dark text-light project-popup d-none"  key="2">
-                    <div class="card-body p-0">
-                        <div class="row" >
-                            <div class="col-lg-7 p-0">
-                                <iframe class="h-100 w-100" srct="./assets/killme.mp4"></iframe>
-                            </div>
-                            <div class="col-lg-5 py-3 info-cont ">
-                                <h6 class="mb-0 fs-5">project</h6>
-                                <h2 class="ps-1 fw-bold">Shop WebApp</h2>
-                                <div class="d-flex align-content-start flex-wrap skill-items pb-3">
-                                    <div class="p-2 bd-highlight">Node.JS</div>
-                                    <div class="p-2 bd-highlight">Express.JS</div>
-                                    <div class="p-2 bd-highlight">MongoDB</div>
-                                    <div class="p-2 bd-highlight">Mongoose</div>
-                                    <div class="p-2 bd-highlight">SendGrid</div>
-                                    <div class="p-2 bd-highlight">Bcrypt.JS</div>
-                                    <div class="p-2 bd-highlight">Heroku</div>
-                                    <div class="p-2 bd-highlight">Git</div>
-                                    <div class="p-2 bd-highlight">Pug.JS</div>
-                                    <div class="p-2 bd-highlight">HTML & CSS</div>
-                                    <div class="p-2 bd-highlight">Javascript & ES6</div>
-                                </div>
-
-                                <h2 class="ps-1 fw-bold">About</h2>
-                                <p class="about-p fs-6 mb-5">
-                                    A Small shop web application that supports: multi-user, cart, checkout, etc.                           
-                                </p>
-                                <div class="container text-center links-container ">
-                                    <a class="btn fw-bold mx-1 fs-4" href=""><i class="bi bi-eye-fill"></i> Live</a>
-                                    <a class="btn fw-bold mx-1 fs-4" href=""><i class="bi bi-github"></i> Github</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 mb-5 project-item"  key="4">
-                    <div class="card bg-light text-dark ">
-                        <div class="card-body text-center p-0">
-                            <div class="h1 mb-3">  <img src="./bg4.png" class="card-img-top" alt="...">
-                            </div>
-                            <h3 class="card-title mb-3">HMS WebApp</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-dark text-light project-popup d-none"  key="4">
-                    <div class="card-body p-0">
-                        <div class="row" >
-                            <div class="col-lg-7 p-0">
-                                <iframe class="h-100 w-100" srct="./assets/killme.mp4"></iframe>
-                            </div>
-                            <div class="col-lg-5 py-3 info-cont ">
-                                <h6 class="mb-0 fs-5">project</h6>
-                                <h2 class="ps-1 fw-bold">HMS WebApp</h2>
-                                <div class="d-flex align-content-start flex-wrap skill-items pb-3">
-                                    <div class="p-2 bd-highlight">Node.JS</div>
-                                    <div class="p-2 bd-highlight">Express.JS</div>
-                                    <div class="p-2 bd-highlight">MongoDB</div>
-                                    <div class="p-2 bd-highlight">Mongoose</div>
-                                    <div class="p-2 bd-highlight">Bcrypt.JS</div>
-                                    <div class="p-2 bd-highlight">Git</div> 
-                                    <div class="p-2 bd-highlight">Pug.JS</div>
-                                    <div class="p-2 bd-highlight">HTML & CSS</div>
-                                    <div class="p-2 bd-highlight">Javascript & ES6</div>
-                                    <div class="p-2 bd-highlight">Bootstrap</div>
-                                    <div class="p-2 bd-highlight">JQuery</div>
-                                </div>
-
-                                <h2 class="ps-1 fw-bold">About</h2>
-                                <p class="about-p fs-6 mb-5">
-                                    <b>The code is owned by a private company.</b>
-                                    <br />
-                                    <br />
-                                    A Web based Hospital Managemnt System that supports multi-user, administration, admin dashboard, logging and many other features displayed in the video.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 mb-5 project-item"  key="5">
-                    <div class="card bg-light text-dark ">
-                        <div class="card-body text-center p-0">
-                            <div class="h1 mb-3">  <img src="./bg4.png" class="card-img-top" alt="...">
-                            </div>
-                            <h3 class="card-title mb-3">Portfolio</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-dark text-light project-popup d-none"  key="5">
-                    <div class="card-body p-0">
-                        <div class="row" >
-                            <div class="col-lg-7 p-0">
-                                <iframe class="h-100 w-100" srct="./assets/killme.mp4"></iframe>
-                            </div>
-                            <div class="col-lg-5 py-3 info-cont ">
-                                <h6 class="mb-0 fs-5">project</h6>
-                                <h2 class="ps-1 fw-bold">Portfolio</h2>
-                                <div class="d-flex align-content-start flex-wrap skill-items pb-3">
-                                    <div class="p-2 bd-highlight">Node.JS</div>
-                                    <div class="p-2 bd-highlight">Express.JS</div>
-                                    <div class="p-2 bd-highlight">SendGrid</div>
-                                    <div class="p-2 bd-highlight">Git</div> 
-                                    <div class="p-2 bd-highlight">HTML & CSS</div>
-                                    <div class="p-2 bd-highlight">Javascript & ES6</div>
-                                    <div class="p-2 bd-highlight">Bootstrap</div>
-                                    <div class="p-2 bd-highlight">JQuery</div>
-                                </div>
-
-                                <h2 class="ps-1 fw-bold">About</h2>
-                                <p class="about-p fs-6 mb-5">
-                                    The portfolio you are browsing currently.
-                                </p>
-                                <div class="container text-center links-container ">
-                                    <a class="btn fw-bold mx-1 fs-4" href=""><i class="bi bi-github"></i> Github</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 mb-5 project-item"  key="6">
-                    <div class="card bg-light text-dark ">
-                        <div class="card-body text-center p-0">
-                            <div class="h1 mb-3">  <img src="./bg4.png" class="card-img-top" alt="...">
-                            </div>
-                            <h3 class="card-title mb-3">Feed RestAPI</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-dark text-light project-popup d-none"  key="6">
-                    <div class="card-body p-0">
-                        <div class="row" >
-                            <div class="col-lg-7 p-0">
-                                <iframe class="h-100 w-100" srct="./assets/killme.mp4"></iframe>
-                            </div>
-                            <div class="col-lg-5 py-3 info-cont ">
-                                <h6 class="mb-0 fs-5">project</h6>
-                                <h2 class="ps-1 fw-bold">Portfolio</h2>
-                                <div class="d-flex align-content-start flex-wrap skill-items pb-3">
-                                    <div class="p-2 bd-highlight">Node.JS</div>
-                                    <div class="p-2 bd-highlight">Express.JS</div>
-                                    <div class="p-2 bd-highlight">MongoDB</div>
-                                    <div class="p-2 bd-highlight">Mongoose</div>
-                                    <div class="p-2 bd-highlight">Bcrypt.JS</div>
-                                    <div class="p-2 bd-highlight">JWT</div>
-                                </div>
-
-                                <h2 class="ps-1 fw-bold">About</h2>
-                                <p class="about-p fs-6 mb-5">
-                                    A simple RestAPI designed to serve, store feed.
-                                    It also supports authentication through JWT
-                                </p>
-                                <div class="container text-center links-container ">
-                                    <a class="btn fw-bold mx-1 fs-4" href=""><i class="bi bi-github"></i> Github</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 mb-5 project-item"  key="7">
-                    <div class="card bg-light text-dark ">
-                        <div class="card-body text-center p-0">
-                            <div class="h1 mb-3">  <img src="./bg4.png" class="card-img-top" alt="...">
-                            </div>
-                            <h3 class="card-title mb-3">Burger Builder App</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-dark text-light project-popup d-none"  key="7">
-                    <div class="card-body p-0">
-                        <div class="row" >
-                            <div class="col-lg-7 p-0">
-                                <iframe class="h-100 w-100" srct="./assets/killme.mp4"></iframe>
-                            </div>
-                            <div class="col-lg-5 py-3 info-cont ">
-                                <h6 class="mb-0 fs-5">project</h6>
-                                <h2 class="ps-1 fw-bold">Shop WebApp</h2>
-                                <div class="d-flex align-content-start flex-wrap skill-items pb-3">
-                                    <div class="p-2 bd-highlight">React.JS</div>
-                                    <div class="p-2 bd-highlight">Heroku</div>
-                                    <div class="p-2 bd-highlight">Git</div>
-                                    <div class="p-2 bd-highlight">HTML & CSS</div>
-                                    <div class="p-2 bd-highlight">Javascript & ES6</div>
-                                </div>
-
-                                <h2 class="ps-1 fw-bold">About</h2>
-                                <p class="about-p fs-6 mb-5">
-                                    A simple React.JS burger builder to demonstrate React's functionality.
-                                </p>
-                                <div class="container text-center links-container ">
-                                    <a class="btn fw-bold mx-1 fs-4" href=""><i class="bi bi-eye-fill"></i> Live</a>
-                                    <a class="btn fw-bold mx-1 fs-4" href=""><i class="bi bi-github"></i> Github</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <h3 class="card-title mb-3">Clinc Managemnt System</h3>
+              </div>
             </div>
+          </div>
+          <div class="card bg-dark text-light project-popup d-none" key="1">
+            <div class="card-body p-0">
+              <div class="row">
+                <div class="col-lg-7 p-0">
+                  <img
+                    src="./nodejs.jpg"
+                    class="card-img-top h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-5 py-3 info-cont">
+                  <h6 class="mb-0 fs-5">Project</h6>
+                  <h2 class="ps-1 fw-bold">Clinc Managemnt System</h2>
+                  <div
+                    class="d-flex align-content-start flex-wrap skill-items pb-3"
+                  >
+                    <div class="p-2 bd-highlight">Node.JS</div>
+                    <div class="p-2 bd-highlight">Express.JS</div>
+                    <div class="p-2 bd-highlight">MongoDB</div>
+                    <div class="p-2 bd-highlight">Mongoose</div>
+                    <div class="p-2 bd-highlight">Bcrypt.JS</div>
+                    <div class="p-2 bd-highlight">JWT</div>
+                    <div class="p-2 bd-highlight">Heroku</div>
+                    <div class="p-2 bd-highlight">Git</div>
+                    <div class="p-2 bd-highlight">Vue.JS</div>
+                    <div class="p-2 bd-highlight">Vuetify</div>
+                    <div class="p-2 bd-highlight">HTML & CSS</div>
+                    <div class="p-2 bd-highlight">Javascript & ES6</div>
+                    <div class="p-2 bd-highlight">Vite</div>
+                  </div>
+
+                  <h2 class="ps-1 fw-bold">About</h2>
+                  <p class="about-p fs-6 mb-5">
+                    This project is a simple in features, yet scalable clinc
+                    managemnt system. It supports administration functionalites
+                    as well as multi-user functionalites. <br />
+                    More info can be found in the .README file, in the git
+                    reposotroy.
+                  </p>
+                  <div class="container text-center links-container">
+                    <a class="btn fw-bold mx-1 fs-4" href=""
+                      ><i class="bi bi-eye-fill"></i> Live</a
+                    >
+                    <a class="btn fw-bold mx-1 fs-4" href=""
+                      ><i class="bi bi-github"></i> Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 mb-5 project-item" key="3">
+            <div class="card bg-light text-dark">
+              <div class="card-body text-center p-0">
+                <div class="h1 mb-3">
+                  <img src="./nodejs.jpg" class="card-img-top" alt="..." />
+                </div>
+                <h3 class="card-title mb-3">Chat Desktop App</h3>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark text-light project-popup d-none" key="3">
+            <div class="card-body p-0">
+              <div class="row">
+                <div class="col-lg-7 p-0">
+                  <img
+                    src="./nodejs.jpg"
+                    class="card-img-top h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-5 py-3 info-cont">
+                  <h6 class="mb-0 fs-5">Project</h6>
+                  <h2 class="ps-1 fw-bold">Chat Desktop App</h2>
+                  <div
+                    class="d-flex align-content-start flex-wrap skill-items pb-3"
+                  >
+                    <div class="p-2 bd-highlight">Node.JS</div>
+                    <div class="p-2 bd-highlight">Electron.JS</div>
+                    <div class="p-2 bd-highlight">PouchDB</div>
+                    <div class="p-2 bd-highlight">TreeModel</div>
+                    <div class="p-2 bd-highlight">Git</div>
+                    <div class="p-2 bd-highlight">React.JS</div>
+                    <div class="p-2 bd-highlight">Bootstrap 5</div>
+                    <div class="p-2 bd-highlight">HTML & CSS</div>
+                    <div class="p-2 bd-highlight">Javascript & ES6</div>
+                    <div class="p-2 bd-highlight">SASS</div>
+                    <div class="p-2 bd-highlight">PostCSS & PurgeCSS</div>
+                    <div class="p-2 bd-highlight">Webpack</div>
+                  </div>
+
+                  <h2 class="ps-1 fw-bold">About</h2>
+                  <p class="about-p fs-6 mb-5">
+                    Chat Desktop App desktop application, made with socket.io,
+                    features real-time messeging, group chats, etc.
+                  </p>
+                  <div class="container text-center links-container">
+                    <a class="btn fw-bold mx-1 fs-4" href=""
+                      ><i class="bi bi-eye-fill"></i> Live</a
+                    >
+                    <a class="btn fw-bold mx-1 fs-4" href=""
+                      ><i class="bi bi-github"></i> Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 mb-5 project-item" key="2">
+            <div class="card bg-light text-dark">
+              <div class="card-body text-center p-0">
+                <div class="h1 mb-3">
+                  <img src="./nodejs.jpg" class="card-img-top" alt="..." />
+                </div>
+                <h3 class="card-title mb-3">Shop WebApp</h3>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark text-light project-popup d-none" key="2">
+            <div class="card-body p-0">
+              <div class="row">
+                <div class="col-lg-7 p-0">
+                  <img
+                    src="./nodejs.jpg"
+                    class="card-img-top h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-5 py-3 info-cont">
+                  <h6 class="mb-0 fs-5">project</h6>
+                  <h2 class="ps-1 fw-bold">Shop WebApp</h2>
+                  <div
+                    class="d-flex align-content-start flex-wrap skill-items pb-3"
+                  >
+                    <div class="p-2 bd-highlight">Node.JS</div>
+                    <div class="p-2 bd-highlight">Express.JS</div>
+                    <div class="p-2 bd-highlight">MongoDB</div>
+                    <div class="p-2 bd-highlight">Mongoose</div>
+                    <div class="p-2 bd-highlight">SendGrid</div>
+                    <div class="p-2 bd-highlight">Bcrypt.JS</div>
+                    <div class="p-2 bd-highlight">Heroku</div>
+                    <div class="p-2 bd-highlight">Git</div>
+                    <div class="p-2 bd-highlight">Pug.JS</div>
+                    <div class="p-2 bd-highlight">HTML & CSS</div>
+                    <div class="p-2 bd-highlight">Javascript & ES6</div>
+                  </div>
+
+                  <h2 class="ps-1 fw-bold">About</h2>
+                  <p class="about-p fs-6 mb-5">
+                    A Small shop web application that supports: multi-user,
+                    cart, checkout, etc.
+                  </p>
+                  <div class="container text-center links-container">
+                    <a class="btn fw-bold mx-1 fs-4" href=""
+                      ><i class="bi bi-eye-fill"></i> Live</a
+                    >
+                    <a class="btn fw-bold mx-1 fs-4" href=""
+                      ><i class="bi bi-github"></i> Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 mb-5 project-item" key="4">
+            <div class="card bg-light text-dark">
+              <div class="card-body text-center p-0">
+                <div class="h1 mb-3">
+                  <img src="./nodejs.jpg" class="card-img-top" alt="..." />
+                </div>
+                <h3 class="card-title mb-3">HMS WebApp</h3>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark text-light project-popup d-none" key="4">
+            <div class="card-body p-0">
+              <div class="row">
+                <div class="col-lg-7 p-0">
+                  <img
+                    src="./nodejs.jpg"
+                    class="card-img-top h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-5 py-3 info-cont">
+                  <h6 class="mb-0 fs-5">project</h6>
+                  <h2 class="ps-1 fw-bold">HMS WebApp</h2>
+                  <div
+                    class="d-flex align-content-start flex-wrap skill-items pb-3"
+                  >
+                    <div class="p-2 bd-highlight">Node.JS</div>
+                    <div class="p-2 bd-highlight">Express.JS</div>
+                    <div class="p-2 bd-highlight">MongoDB</div>
+                    <div class="p-2 bd-highlight">Mongoose</div>
+                    <div class="p-2 bd-highlight">Bcrypt.JS</div>
+                    <div class="p-2 bd-highlight">Git</div>
+                    <div class="p-2 bd-highlight">Pug.JS</div>
+                    <div class="p-2 bd-highlight">HTML & CSS</div>
+                    <div class="p-2 bd-highlight">Javascript & ES6</div>
+                    <div class="p-2 bd-highlight">Bootstrap</div>
+                    <div class="p-2 bd-highlight">JQuery</div>
+                  </div>
+
+                  <h2 class="ps-1 fw-bold">About</h2>
+                  <p class="about-p fs-6 mb-5">
+                    <b>The code is owned by a private company.</b>
+                    <br />
+                    <br />
+                    A Web based Hospital Managemnt System that supports
+                    multi-user, administration, admin dashboard, logging and
+                    many other features displayed in the video.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 mb-5 project-item" key="5">
+            <div class="card bg-light text-dark">
+              <div class="card-body text-center p-0">
+                <div class="h1 mb-3">
+                  <img src="./nodejs.jpg" class="card-img-top" alt="..." />
+                </div>
+                <h3 class="card-title mb-3">Portfolio</h3>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark text-light project-popup d-none" key="5">
+            <div class="card-body p-0">
+              <div class="row">
+                <div class="col-lg-7 p-0">
+                  <img
+                    src="./nodejs.jpg"
+                    class="card-img-top h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-5 py-3 info-cont">
+                  <h6 class="mb-0 fs-5">project</h6>
+                  <h2 class="ps-1 fw-bold">Portfolio</h2>
+                  <div
+                    class="d-flex align-content-start flex-wrap skill-items pb-3"
+                  >
+                    <div class="p-2 bd-highlight">Node.JS</div>
+                    <div class="p-2 bd-highlight">Express.JS</div>
+                    <div class="p-2 bd-highlight">SendGrid</div>
+                    <div class="p-2 bd-highlight">Git</div>
+                    <div class="p-2 bd-highlight">HTML & CSS</div>
+                    <div class="p-2 bd-highlight">Javascript & ES6</div>
+                    <div class="p-2 bd-highlight">Bootstrap</div>
+                    <div class="p-2 bd-highlight">JQuery</div>
+                  </div>
+
+                  <h2 class="ps-1 fw-bold">About</h2>
+                  <p class="about-p fs-6 mb-5">
+                    The portfolio you are browsing currently.
+                  </p>
+                  <div class="container text-center links-container">
+                    <a class="btn fw-bold mx-1 fs-4" href=""
+                      ><i class="bi bi-github"></i> Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 mb-5 project-item" key="6">
+            <div class="card bg-light text-dark">
+              <div class="card-body text-center p-0">
+                <div class="h1 mb-3">
+                  <img src="./nodejs.jpg" class="card-img-top" alt="..." />
+                </div>
+                <h3 class="card-title mb-3">Feed RestAPI</h3>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark text-light project-popup d-none" key="6">
+            <div class="card-body p-0">
+              <div class="row">
+                <div class="col-lg-7 p-0">
+                  <img
+                    src="./nodejs.jpg"
+                    class="card-img-top h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-5 py-3 info-cont">
+                  <h6 class="mb-0 fs-5">project</h6>
+                  <h2 class="ps-1 fw-bold">Portfolio</h2>
+                  <div
+                    class="d-flex align-content-start flex-wrap skill-items pb-3"
+                  >
+                    <div class="p-2 bd-highlight">Node.JS</div>
+                    <div class="p-2 bd-highlight">Express.JS</div>
+                    <div class="p-2 bd-highlight">MongoDB</div>
+                    <div class="p-2 bd-highlight">Mongoose</div>
+                    <div class="p-2 bd-highlight">Bcrypt.JS</div>
+                    <div class="p-2 bd-highlight">JWT</div>
+                  </div>
+
+                  <h2 class="ps-1 fw-bold">About</h2>
+                  <p class="about-p fs-6 mb-5">
+                    A simple RestAPI designed to serve, store feed. It also
+                    supports authentication through JWT
+                  </p>
+                  <div class="container text-center links-container">
+                    <a class="btn fw-bold mx-1 fs-4" href=""
+                      ><i class="bi bi-github"></i> Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 mb-5 project-item" key="7">
+            <div class="card bg-light text-dark">
+              <div class="card-body text-center p-0">
+                <div class="h1 mb-3">
+                  <img src="./nodejs.jpg" class="card-img-top" alt="..." />
+                </div>
+                <h3 class="card-title mb-3">Burger Builder App</h3>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark text-light project-popup d-none" key="7">
+            <div class="card-body p-0">
+              <div class="row">
+                <div class="col-lg-7 p-0">
+                  <img
+                    src="./nodejs.jpg"
+                    class="card-img-top h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-5 py-3 info-cont">
+                  <h6 class="mb-0 fs-5">project</h6>
+                  <h2 class="ps-1 fw-bold">Shop WebApp</h2>
+                  <div
+                    class="d-flex align-content-start flex-wrap skill-items pb-3"
+                  >
+                    <div class="p-2 bd-highlight">React.JS</div>
+                    <div class="p-2 bd-highlight">Heroku</div>
+                    <div class="p-2 bd-highlight">Git</div>
+                    <div class="p-2 bd-highlight">HTML & CSS</div>
+                    <div class="p-2 bd-highlight">Javascript & ES6</div>
+                  </div>
+
+                  <h2 class="ps-1 fw-bold">About</h2>
+                  <p class="about-p fs-6 mb-5">
+                    A simple React.JS burger builder to demonstrate React's
+                    functionality.
+                  </p>
+                  <div class="container text-center links-container">
+                    <a class="btn fw-bold mx-1 fs-4" href=""
+                      ><i class="bi bi-eye-fill"></i> Live</a
+                    >
+                    <a class="btn fw-bold mx-1 fs-4" href=""
+                      ><i class="bi bi-github"></i> Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section class=" contact-section mb-5 bg-white" id="contact">
-        <div class="container pt-5 px-3">
-            <h1 class="display-5 fw-bold mb-5 text-center"><span class="pb-2">Contact Me</span></h1>
-            <div class="container  form-cont card p-3 pb-2 bg-light">
-                <form class="row g-3 mb-2" method="POST" action="/sendmail">
-                    <div class="col-md-6">
-                        <label for="Name" class="form-label">Name</label>
-                        <input type="text" name="name"  class="form-control" id="Name">
-                      </div>
-                    <div class="col-md-6">
-                      <label for="email" class="form-label">Email</label>
-                      <input type="email" name="email"  class="form-control" id="email">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" name="text" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
-                    <div class="col-12 text-center">
-                      <button type="submit" class="btn fs-2 fw-bold text-white submitBtn">Submit</button>
-                    </div>
-                  </form>
-
+    <section class="contact-section mb-5 bg-white" id="contact">
+      <div class="container pt-5 px-3">
+        <h1 class="display-5 fw-bold mb-5 text-center">
+          <span class="pb-2">Contact Me</span>
+        </h1>
+        <div class="container form-cont card p-3 pb-2 bg-light">
+          <form class="row g-3 mb-2" method="POST" action="/sendmail">
+            <div class="col-md-6">
+              <label for="Name" class="form-label">Name</label>
+              <input type="text" name="name" class="form-control" id="Name" />
             </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                id="email"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Example textarea</label
+              >
+              <textarea
+                class="form-control"
+                name="text"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="col-12 text-center">
+              <button
+                type="submit"
+                class="btn fs-2 fw-bold text-white submitBtn"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
         </div>
+      </div>
     </section>
 
     <footer id="footer" class="bg-dark text-white p-4">
-        <p class="text-center m-0">
-            This work is licensed under a Non-Profit Open Software License 3.0 (NPOSL-3.0)        
-        </p>
+      <p class="text-center m-0">
+        This work is licensed under a Non-Profit Open Software License 3.0
+        (NPOSL-3.0)
+      </p>
     </footer>
-    <div id="canvas" ></div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div id="canvas"></div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>

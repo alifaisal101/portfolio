@@ -67,6 +67,8 @@
         class="nav-link text-dark mb-3"
         data-bs-toggle="tooltip"
         title="Linkedin"
+        target="_blank"
+
       >
         <i class="bi bi-linkedin"></i>
       </a>
@@ -75,6 +77,7 @@
         class="nav-link text-dark mb-3"
         data-bs-toggle="tooltip"
         title="Github"
+        target="_blank"
       >
         <i class="bi bi-github"></i>
       </a>
@@ -171,13 +174,13 @@
           <span class="pb-2">Projects</span>
         </h1>
         <div class="row" id="projects-list">
-          <div class="col-xl-4 col-lg-6 mb-5 project-item" key="1">
+          <div class="col-xl-4 col-lg-6 mb-5 project-item" key="1" >
             <div class="card bg-light text-dark">
               <div class="card-body text-center p-0">
                 <div class="h1 mb-3">
-                  <img src="./nest-logo.svg" class="card-img-top" alt="..." />
+                  <img src="http://164.92.253.223:8080/assets/tech-eco-logo_comp.png" class="card-img-top" alt="..." />
                 </div>
-                <h3 class="card-title mb-3">Technology Equipments E-Commerce API</h3>
+                <h3 class="card-title mb-3">Tech E-Commerce API</h3>
               </div>
             </div>
           </div>
@@ -186,14 +189,14 @@
               <div class="row">
                 <div class="col-lg-7 p-0">
                   <img
-                    src="./nest-logo.svg"
-                    class="card-img-top h-25"
+                    src="http://164.92.253.223:8080/assets/tech-eco-logo_comp.png"
+                    class="card-img-top h-100"
                     alt="..."
                   />
                 </div>
                 <div class="col-lg-5 py-3 info-cont">
                   <h6 class="mb-0 fs-5">Project</h6>
-                  <h2 class="ps-1 fw-bold">Technology Equipments E-Commerce API</h2>
+                  <h2 class="ps-1 fw-bold">Tech E-Commerce API</h2>
                   <div
                     class="d-flex align-content-start flex-wrap skill-items pb-3"
                   >
@@ -228,7 +231,7 @@
             <div class="card bg-light text-dark">
               <div class="card-body text-center p-0">
                 <div class="h1 mb-3">
-                  <img src="./assets/shop-webapp-logo.png" class="card-img-top" alt="..." />
+                  <img src="http://164.92.253.223:8080/assets/shop-webapp-logo_custom_comp.png" class="card-img-top" alt="..." />
                 </div>
                 <h3 class="card-title mb-3">Shop WebApp</h3>
               </div>
@@ -239,7 +242,7 @@
               <div class="row">
                 <div class="col-lg-7 p-0">
                   <img
-                    src="./assets/shop-webapp-logo.png"
+                    src="http://164.92.253.223:8080/assets/shop-webapp-logo_custom_comp.png"
                     class="card-img-top h-100"
                     alt="..."
                   />
@@ -280,21 +283,25 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-6 mb-5 project-item" key="4">
+          <div class="col-xl-4 col-lg-6 mb-5 project-item" key="3">
             <div class="card bg-light text-dark">
               <div class="card-body text-center p-0">
                 <div class="h1 mb-3">
-                  <img src="./nodejs.jpg" class="card-img-top" alt="..." />
+                  <img src="http://164.92.253.223:8080/assets/hms-logo_comp.png"  class="card-img-top" alt="..." />
                 </div>
                 <h3 class="card-title mb-3">HMS WebApp</h3>
               </div>
             </div>
           </div>
-          <div class="card bg-dark text-light project-popup d-none" key="4">
+          <div class="card bg-dark text-light project-popup d-none" key="3">
             <div class="card-body p-0">
               <div class="row">
                 <div class="col-lg-7 p-0">
-                  <iframe src="./assets/hms_webapp-preview.mp4" frameborder="0" height="500", width="100%"></iframe>
+                  <!-- srct is used here rather then src, that is to prevent the video from playing when clicked off the project window.
+                       The video source is stored temporarily in the srct attr. 
+                       When a project is clicked on, the video source will be moved to src and when clicked off will be moved back to srct.
+                  -->
+                  <iframe  srct="http://164.92.253.223:8080/assets/hms_webapp-preview.mp4" name="proj-3-video" frameborder="0" height="500", width="100%"></iframe>
                 </div>
                 <div class="col-lg-5 py-3 info-cont">
                   <h6 class="mb-0 fs-5">project</h6>

@@ -3,7 +3,7 @@ body::before {
     content: "";
     height: 100px;
     background-color: #212529 !important;
-  }  
+}
 
 * {
     font-family: 'Times New Roman', Times, serif;
@@ -12,50 +12,52 @@ body::before {
 
 .noscroll {
     overflow: hidden !important;
-    padding-right: 8px !important;  /* to resamble the scroll wheel */
+    padding-right: 8px !important;
+    /* to resamble the scroll wheel */
 }
 
 @media screen and (max-width: 600px) {
     .noscroll {
         overflow: hidden !important;
-        padding-right: 0px !important;  /* to resamble the scroll wheel */
+        padding-right: 0px !important;
+        /* to resamble the scroll wheel */
     }
 
     .project-popup .info-cont {
         overflow-y: scroll !important;
-        height:45vh !important;
+        height: 45vh !important;
     }
 
-    
+
 }
 
 @media screen and (min-width: 1000px) {
     #contact .form-cont {
         width: 60%;
     }
-    
+
 }
 
 
 /* width */
 ::-webkit-scrollbar {
     width: 8px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: #888;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
     background: #555;
-  }
+}
 
 .text-light {
     color: rgb(221, 221, 221) !important;
@@ -66,19 +68,18 @@ body::before {
 }
 
 nav .nav-link:hover {
-    color:white !important;
+    color: white !important;
 
 }
 
 .side_btns .nav-link:hover {
     text-shadow: 0px 0px 5px #2b9bcd
-
 }
 
 .side_btns {
     position: fixed;
     top: 20rem;
-    box-shadow: 3px 7px #cfcfcf;;
+    box-shadow: 3px 7px #cfcfcf;
 }
 
 /* HOME SECTION STARTS */
@@ -87,36 +88,42 @@ nav .nav-link:hover {
     background-image: url('./bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #f0f0f0; 
-    
+    background-color: #f0f0f0;
+
     height: 88vh;
 }
 
-.home-section .container .more-btn a, .submitBtn {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.home-section .container .more-btn a,
+.submitBtn {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #026e96;
 }
 
-.home-section .container .more-btn:hover, .submitBtn:hover {
+.home-section .container .more-btn:hover,
+.submitBtn:hover {
     background-color: #2b9bcd;
     text-shadow: 0px 0px 5px #2b9bcd
 }
+
 /* HOME SECTION ENDS */
 
 
 /* ABOUT SECTION STARTS */
 .about-section {
-    background-color: #fafafa !important; 
+    background-color: #fafafa !important;
 
 }
-.about-section .container h1 span, .projects-section .container h1 span, .contact-section .container h1 span{
+
+.about-section .container h1 span,
+.projects-section .container h1 span,
+.contact-section .container h1 span {
     border-bottom: solid 6px #2b9bcd;
     border-radius: 0.5rem;
 }
 
 .about-section .container .content .card {
-    border: none;   
-    background-color: #fafafa !important; 
+    border: none;
+    background-color: #fafafa !important;
 
 }
 
@@ -135,13 +142,17 @@ nav .nav-link:hover {
 
 }
 
+/* ABOUT SECTION ENDS */
 
-.projects-section .project-item .card:hover{
+.project-item .card img {
+    height: 12rem;
+    object-fit: cover;
+}
+
+.projects-section .project-item .card:hover {
     box-shadow: 0px 5px 24px #2b9bcd;
     cursor: pointer;
 }
-
-/* ABOUT SECTION ENDS */
 
 
 #canvas {
@@ -153,7 +164,7 @@ nav .nav-link:hover {
     position: fixed;
     top: 0;
     display: block;
-    background-color:rgba(0, 0, 0, 0.74);
+    background-color: rgba(0, 0, 0, 0.74);
     height: 100%;
     width: 100%;
     z-index: 10000;
@@ -175,11 +186,11 @@ nav .nav-link:hover {
 }
 
 .project-popup .links-container a {
-    background-color:#b9bbbe !important ;
+    background-color: #b9bbbe !important;
 }
 
 .project-popup .links-container a:hover {
-    background-color:#e5e6e7 !important ;
+    background-color: #e5e6e7 !important;
 
 }
 
@@ -203,9 +214,15 @@ nav .nav-link:hover {
 }
 
 #contact .form-cont {
-   box-shadow: 1px 1px 5px #e2e2e2;
+    box-shadow: 1px 1px 5px #e2e2e2;
 }
 
-#footer {
-
+.project-popup img {
+    object-fit: cover;
 }
+
+.project-popup video {
+    height: 3000px;
+}
+
+#footer {}

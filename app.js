@@ -1,4 +1,6 @@
+const https = require("https");
 const path = require("path");
+const fs = require("fs");
 
 const express = require("express");
 const sgMail = require("@sendgrid/mail");
@@ -6,7 +8,11 @@ const bodyParser = require("body-parser");
 const { body } = require("express-validator");
 const { validationResult } = require("express-validator");
 
+const PORT = process.env.PORT || 443;
+
 const app = express();
+
+https.createServer({key: fs.readFileSync('key.pem'), cert:fs.readFileSync('cert.pem')},app).listen(PORT, () => {console.log(`Listening on port ${PORT}...`)});
 
 const rootPath = path.dirname(process.mainModule.filename);
 
@@ -64,4 +70,3 @@ app.use((error, req, res, next) => {
 });
   
 
-app.listen(process.env.PORT);

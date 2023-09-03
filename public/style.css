@@ -1,228 +1,216 @@
 body::before {
-    display: block;
-    content: "";
-    height: 100px;
-    background-color: #212529 !important;
+  display: block;
+  content: '';
+  height: 100px;
+  background-color: #212529 !important;
 }
 
 * {
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 0px !important;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 0px !important;
 }
 
 .noscroll {
-    overflow: hidden !important;
-    padding-right: 8px !important;
-    /* to resamble the scroll wheel */
+  overflow: hidden !important;
+  padding-right: 8px !important;
+  /* to resamble the scroll wheel */
 }
 
 @media screen and (max-width: 600px) {
-    .noscroll {
-        overflow: hidden !important;
-        padding-right: 0px !important;
-        /* to resamble the scroll wheel */
-    }
+  .noscroll {
+    overflow: hidden !important;
+    padding-right: 0px !important;
+    /* to resamble the scroll wheel */
+  }
 
-    .project-popup .info-cont {
-        overflow-y: scroll !important;
-        height: 45vh !important;
-    }
-
-
+  .project-popup .info-cont {
+    overflow-y: scroll !important;
+    height: 45vh !important;
+  }
 }
 
 @media screen and (min-width: 1000px) {
-    #contact .form-cont {
-        width: 60%;
-    }
-
+  #contact .form-cont {
+    width: 60%;
+  }
 }
-
 
 /* width */
 ::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+  background: #f1f1f1;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888;
+  background: #888;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+  background: #555;
 }
 
 .text-light {
-    color: rgb(221, 221, 221) !important;
+  color: rgb(221, 221, 221) !important;
 }
 
 .logo-text:hover {
-    text-shadow: 0px 0px 10px #2b9bcd
+  text-shadow: 0px 0px 10px #2b9bcd;
 }
 
 nav .nav-link:hover {
-    color: white !important;
-
+  color: white !important;
 }
 
 .side_btns .nav-link:hover {
-    text-shadow: 0px 0px 5px #2b9bcd
+  text-shadow: 0px 0px 5px #2b9bcd;
 }
 
 .side_btns {
-    position: fixed;
-    top: 20rem;
-    box-shadow: 3px 7px #cfcfcf;
+  position: fixed;
+  top: 20rem;
+  box-shadow: 3px 7px #cfcfcf;
 }
 
 /* HOME SECTION STARTS */
 
 .home-section {
-    background-image: url('./bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #f0f0f0;
+  background-image: url('./bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f0f0f0;
 
-    height: 88vh;
+  height: 88vh;
 }
 
 .home-section .container .more-btn a,
 .submitBtn {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #026e96;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #026e96;
 }
 
 .home-section .container .more-btn:hover,
 .submitBtn:hover {
-    background-color: #2b9bcd;
-    text-shadow: 0px 0px 5px #2b9bcd
+  background-color: #2b9bcd;
+  text-shadow: 0px 0px 5px #2b9bcd;
 }
 
 /* HOME SECTION ENDS */
 
-
 /* ABOUT SECTION STARTS */
 .about-section {
-    background-color: #fafafa !important;
-
+  background-color: #fafafa !important;
 }
 
 .about-section .container h1 span,
 .projects-section .container h1 span,
 .contact-section .container h1 span {
-    border-bottom: solid 6px #2b9bcd;
-    border-radius: 0.5rem;
+  border-bottom: solid 6px #2b9bcd;
+  border-radius: 0.5rem;
 }
 
 .about-section .container .content .card {
-    border: none;
-    background-color: #fafafa !important;
-
+  border: none;
+  background-color: #fafafa !important;
 }
 
-
 .about-section .container .content .card .skill-items div {
-    background-color: #e4e4e4e3;
-    border-radius: 0.2rem;
-    margin-left: 0.8rem;
-    margin-bottom: 0.38rem;
-
+  background-color: #e4e4e4e3;
+  border-radius: 0.2rem;
+  margin-left: 0.8rem;
+  margin-bottom: 0.38rem;
 }
 
 .about-section .container .content .card .skill-items div:hover {
-    background-color: #e4e4e4b4;
-
-
+  background-color: #e4e4e4b4;
 }
 
 /* ABOUT SECTION ENDS */
 
 .project-item .card img {
-    height: 12rem;
-    object-fit: cover;
+  height: 12rem;
+  object-fit: cover;
 }
 
 .projects-section .project-item .card:hover {
-    box-shadow: 0px 5px 24px #2b9bcd;
-    cursor: pointer;
+  box-shadow: 0px 5px 24px #2b9bcd;
+  cursor: pointer;
 }
 
-
 #canvas {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .shadow {
-    visibility: visible !important;
-    position: fixed;
-    top: 0;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.74);
-    height: 100%;
-    width: 100%;
-    z-index: 10000;
+  visibility: visible !important;
+  position: fixed;
+  top: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.74);
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
 }
 
 .project-popup {
-    position: fixed;
-    top: 16%;
-    left: 5%;
-    width: 90%;
-    z-index: 10001;
-    box-shadow: 5px 5px 3px rgb(0, 0, 0);
+  position: fixed;
+  top: 16%;
+  left: 5%;
+  width: 90%;
+  z-index: 10001;
+  box-shadow: 5px 5px 3px rgb(0, 0, 0);
 }
 
-
 .project-popup .about-p {
-    height: 5rem;
-    overflow-y: auto;
+  height: 5rem;
+  overflow-y: auto;
 }
 
 .project-popup .links-container a {
-    background-color: #b9bbbe !important;
+  background-color: #b9bbbe !important;
 }
 
 .project-popup .links-container a:hover {
-    background-color: #e5e6e7 !important;
-
+  background-color: #e5e6e7 !important;
 }
 
 .project-popup .fs-6 {
-    font-size: large !important;
+  font-size: large !important;
 }
 
-
 .project-popup .skill-items div {
-    box-shadow: 1px 1px 2px rgb(0, 0, 0);
-    background-color: #373b3f;
-    border-radius: 0.2rem;
-    margin-left: 0.5rem;
-    margin-bottom: 0.38rem;
-
+  box-shadow: 1px 1px 2px rgb(0, 0, 0);
+  background-color: #373b3f;
+  border-radius: 0.2rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.38rem;
 }
 
 .project-popup .skill-items div:hover {
-    background-color: #27292b;
-    box-shadow: none;
+  background-color: #27292b;
+  box-shadow: none;
 }
 
 #contact .form-cont {
-    box-shadow: 1px 1px 5px #e2e2e2;
+  box-shadow: 1px 1px 5px #e2e2e2;
 }
 
 .project-popup img {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .project-popup video {
-    height: 3000px;
+  height: 3000px;
 }
 
-#footer {}
+#footer {
+}
+
+#projects #projects-list {
+  justify-content: center;
+}

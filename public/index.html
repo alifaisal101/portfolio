@@ -42,17 +42,29 @@
               <a href="#contact" class="nav-link text-light">Contact</a>
             </li>
             <li class="nav-item mx-2 d-lg-none">
-              <a href="https://www.linkedin.com/in/ali-faisal-915248241" target="_blank" class="nav-link text-light">
+              <a
+                href="https://www.linkedin.com/in/ali-faisal-915248241"
+                target="_blank"
+                class="nav-link text-light"
+              >
                 <i class="bi bi-linkedin"></i> Linkedin
               </a>
             </li>
             <li class="nav-item mx-2 d-lg-none">
-              <a href="https://github.com/alifaisal101" target="_blank" class="nav-link text-light">
+              <a
+                href="https://github.com/alifaisal101"
+                target="_blank"
+                class="nav-link text-light"
+              >
                 <i class="bi bi-github"></i> Github
               </a>
             </li>
             <li class="nav-item mx-2 d-lg-none">
-              <a href="/assets/Resume_Ali_Faisal.pdf" target="_blank" class="nav-link text-light">
+              <a
+                href="/assets/Resume_Ali_Faisal.pdf"
+                target="_blank"
+                class="nav-link text-light"
+              >
                 <i class="bi bi-file-text-fill"></i> Resume
               </a>
             </li>
@@ -68,7 +80,6 @@
         data-bs-toggle="tooltip"
         title="Linkedin"
         target="_blank"
-
       >
         <i class="bi bi-linkedin"></i>
       </a>
@@ -118,14 +129,15 @@
             <div class="col-lg card mx-lg-5 me-lg-4 mb-5 mb-lg-0">
               <h1 class="mb-3">Who am I?</h1>
               <p class="lead mb-5">
-                I'm a software developer. I specialize mainly in fullstack javascript development.
-                I'm experienced in developing MVC web applications and Rest APIs, with technologies 
-                such as Node.JS, Express.JS, and Nest.JS for the backend and frontend technologies 
-                like React.JS & Vue.JS.<br /><br />
+                I'm a software developer. I specialize mainly in fullstack
+                javascript development. I'm experienced in developing MVC web
+                applications and Rest APIs, with technologies such as Node.JS,
+                Express.JS, and Nest.JS for the backend and frontend
+                technologies like React.JS & Vue.JS.<br /><br />
                 I'm also experienced in developing cross-platform desktop
                 applications using Electron.JS and in setting up virtual private
-                Linux servers (VPSs) for deployment, file sharing, etc; and maintaining
-                them.
+                Linux servers (VPSs) for deployment, file sharing, etc; and
+                maintaining them.
               </p>
             </div>
             <div class="col-lg card mx-lg-5 ms-lg-4">
@@ -167,18 +179,80 @@
         </div>
       </div>
     </section>
-<!-- Projects Section Starts here -->
+    <!-- Projects Section Starts here -->
     <section class="bg-dark projects-section text-light pb-5" id="projects">
       <div class="container pt-5 px-lg-5">
         <h1 class="display-5 fw-bold mb-5 text-center">
           <span class="pb-2">Projects</span>
         </h1>
         <div class="row" id="projects-list">
-          <div class="col-xl-4 col-lg-6 mb-5 project-item" key="1" >
+          <div class="col-xl-4 col-lg-6 mb-5 project-item" key="0">
+            <div class="card bg-light text-dark">
+              <div class="card-body text-center p-0">
+                <div class="h1 mb-3" style="background-color: black">
+                  <img
+                    src="/assets/lmuhandis-logo.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <h3 class="card-title mb-3">AlMuhandis For Accounting</h3>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark text-light project-popup d-none" key="0">
+            <div class="card-body p-0">
+              <div class="row">
+                <div class="col-lg-7 p-0">
+                  <!-- srct is used here rather then src, that is to prevent the video from playing when clicked off the project window.
+                       The video source is stored temporarily in the srct attr. 
+                       When a project is clicked on, the video source will be moved to src and when clicked off will be moved back to srct.
+                  -->
+                  <iframe
+                    srct="/assets/almuhandis-accounting.mp4"
+                    name="proj-3-video"
+                    frameborder="0"
+                    width="100%"
+                    height="100%"
+                  ></iframe>
+                </div>
+                <div class="col-lg-5 py-3 info-cont">
+                  <h6 class="mb-0 fs-5">Project</h6>
+                  <h2 class="ps-1 fw-bold">AlMuhandis For Accounting</h2>
+                  <div
+                    class="d-flex align-content-start flex-wrap skill-items pb-3"
+                  >
+                    <div class="p-2 bd-highlight">Node.JS</div>
+                    <div class="p-2 bd-highlight">Electron.JS</div>
+                    <div class="p-2 bd-highlight">ContextAPI</div>
+                    <div class="p-2 bd-highlight">React.JS</div>
+                    <div class="p-2 bd-highlight">MongoDB</div>
+                    <div class="p-2 bd-highlight">Mongoose</div>
+                    <div class="p-2 bd-highlight">Bcrypt.JS</div>
+                    <div class="p-2 bd-highlight">Git</div>
+                    <div class="p-2 bd-highlight">HTML & CSS</div>
+                    <div class="p-2 bd-highlight">Javascript & ES6</div>
+                  </div>
+
+                  <h2 class="ps-1 fw-bold">About</h2>
+                  <p class="about-p fs-6 mb-5">
+                    A Cross Platform Desktop Application for perodical based
+                    payments, and extra accounting tasks, developed with
+                    Electron.JS and React.JS.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 mb-5 project-item" key="1">
             <div class="card bg-light text-dark">
               <div class="card-body text-center p-0">
                 <div class="h1 mb-3">
-                  <img src="/assets/tech-eco-logo_comp.png" class="card-img-top" alt="..." />
+                  <img
+                    src="/assets/tech-eco-logo_comp.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
                 </div>
                 <h3 class="card-title mb-3">Tech E-Commerce API</h3>
               </div>
@@ -214,12 +288,16 @@
 
                   <h2 class="ps-1 fw-bold">About</h2>
                   <p class="about-p fs-6 mb-5">
-                    An E-Commerce API for tech products such as computers, laptops, monitors and etc.
-                    The API supports authentication, authorization, user email confirmation and category based products.
+                    An E-Commerce API for tech products such as computers,
+                    laptops, monitors and etc. The API supports authentication,
+                    authorization, user email confirmation and category based
+                    products.
                   </p>
                   <div class="container text-center links-container">
-
-                    <a class="btn fw-bold mx-1 fs-4" target="_blank" href="https://github.com/alifaisal101/tech-ecommerce-api"
+                    <a
+                      class="btn fw-bold mx-1 fs-4"
+                      target="_blank"
+                      href="https://github.com/alifaisal101/tech-ecommerce-api"
                       ><i class="bi bi-github"></i>Github</a
                     >
                   </div>
@@ -231,7 +309,11 @@
             <div class="card bg-light text-dark">
               <div class="card-body text-center p-0">
                 <div class="h1 mb-3">
-                  <img src="/assets/shop-webapp-logo_custom_comp.png" class="card-img-top" alt="..." />
+                  <img
+                    src="/assets/shop-webapp-logo_custom_comp.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
                 </div>
                 <h3 class="card-title mb-3">Shop WebApp</h3>
               </div>
@@ -272,7 +354,10 @@
                     cart, checkout, etc.
                   </p>
                   <div class="container text-center links-container">
-                    <a class="btn fw-bold mx-1 fs-4" href="https://github.com/alifaisal101/shop-app" target="_blank"
+                    <a
+                      class="btn fw-bold mx-1 fs-4"
+                      href="https://github.com/alifaisal101/shop-app"
+                      target="_blank"
                       ><i class="bi bi-github"></i> Github</a
                     >
                   </div>
@@ -284,7 +369,11 @@
             <div class="card bg-light text-dark">
               <div class="card-body text-center p-0">
                 <div class="h1 mb-3">
-                  <img src="/assets/hms-logo_comp.png"  class="card-img-top" alt="..." />
+                  <img
+                    src="/assets/hms-logo_comp.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
                 </div>
                 <h3 class="card-title mb-3">HMS WebApp</h3>
               </div>
@@ -298,9 +387,15 @@
                        The video source is stored temporarily in the srct attr. 
                        When a project is clicked on, the video source will be moved to src and when clicked off will be moved back to srct.
                   -->
-                  <iframe  srct="/assets/hms_webapp-preview.mp4" name="proj-3-video" frameborder="0" width="100%" height="100%"></iframe>
+                  <iframe
+                    srct="/assets/hms_webapp-preview.mp4"
+                    name="proj-3-video"
+                    frameborder="0"
+                    width="100%"
+                    height="100%"
+                  ></iframe>
                 </div>
-                <div class="col-lg-5 py-3 info-cont">
+                <div class="col-lg-5 py-3 info-cont align-self-center">
                   <h6 class="mb-0 fs-5">Project</h6>
                   <h2 class="ps-1 fw-bold">HMS WebApp</h2>
                   <div
@@ -335,7 +430,7 @@
         </div>
       </div>
     </section>
-<!-- Projects Section ends here -->
+    <!-- Projects Section ends here -->
     <section class="contact-section mb-5 bg-white" id="contact">
       <div class="container pt-5 px-3">
         <h1 class="display-5 fw-bold mb-5 text-center">
@@ -357,9 +452,7 @@
               />
             </div>
             <div class="mb-3">
-              <label for="message" class="form-label"
-                >Message</label
-              >
+              <label for="message" class="form-label">Message</label>
               <textarea
                 class="form-control"
                 name="text"
